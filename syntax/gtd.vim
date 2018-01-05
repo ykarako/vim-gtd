@@ -38,11 +38,11 @@ syn region gtdComment start="--" end="\n"
 syn match gtdListMarker "\%(\t\| \{0,4\}\)-\%(\s\+\S\)\@="
 
 " Keywords
-setlocal iskeyword+=!
-setlocal iskeyword+=>
-setlocal iskeyword+=<
-setlocal iskeyword+=<
-setlocal iskeyword+=-
+setl iskeyword+=!
+setl iskeyword+=>
+setl iskeyword+=<
+setl iskeyword+=<
+setl iskeyword+=-
 syn keyword gtdTodo !!
 syn keyword gtdArrow >> << -> <- AND OR
 
@@ -61,5 +61,5 @@ hi def link gtdListMarker            Statement
 
 let b:current_syntax = "gtd"
 
-set commentstring=--\ %s
+setl commentstring=--\ %s
 " vim:set sw=2:
