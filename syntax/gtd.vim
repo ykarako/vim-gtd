@@ -17,6 +17,9 @@ syn region gtdTitle
 syn region gtdSituation
             \ start="@" end="@*\s*$"
             \ keepend oneline
+syn region gtdEnd
+            \ start="\~" end="\~*\s*$"
+            \ keepend oneline
 syn region gtdTag
             \ start="\[" end="\]"
             \ keepend oneline
@@ -46,6 +49,7 @@ syn keyword gtdArrow >> << -> <- AND OR
 " Highlighting
 hi def link gtdTitle                 Title
 hi def link gtdSituation             PreProc
+hi def link gtdSituation             Type
 hi def link gtdTag                   Special
 hi def link gtdTrigger               htmlTag
 hi def link gtdBold                  htmlBold
