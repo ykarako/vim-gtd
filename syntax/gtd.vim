@@ -46,7 +46,7 @@ syn keyword gtdArrow >> << -> <- AND OR
 " Highlighting
 hi def link gtdTitle                 Title
 hi def link gtdSituation             PreProc
-hi def link gtdTag                   Title
+hi def link gtdTag                   Special
 hi def link gtdTrigger               htmlTag
 hi def link gtdBold                  htmlBold
 hi def link gtdString                String
