@@ -1,0 +1,1 @@
+au BufNewFile,BufRead *.gtd setf gtd
