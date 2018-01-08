@@ -1,1 +1,1 @@
-au BufNewFile,BufRead *.gtd setf gtd
+au BufNewFile,BufRead *.gtd setlocal filetype=gtd
