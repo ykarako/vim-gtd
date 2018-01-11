@@ -15,10 +15,10 @@ syn region gtdTitle
             \ start="#" end="#*\s*$"
             \ keepend oneline
 syn region gtdSituation
-            \ start="@" end="@*\s*$"
+            \ start="@" end="\s"
             \ keepend oneline
 syn region gtdEnd
-            \ start="\~" end="\~*\s*$"
+            \ start="\~" end="\s"
             \ keepend oneline
 syn region gtdTag
             \ start="\[" end="\]"
