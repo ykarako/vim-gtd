@@ -44,7 +44,7 @@ setl iskeyword+=<
 setl iskeyword+=<
 setl iskeyword+=-
 syn keyword gtdTodo !!
-syn keyword gtdArrow >> << -> <- AND OR
+syn keyword gtdArrow >> << -> <- AND OR ├ ｜ └
 
 " Highlighting
 hi def link gtdTitle                 Title
